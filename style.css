@@ -1,0 +1,474 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    line-height:1.8;
+}
+/*  start of navbar style */
+#top-bar{
+    height: 84px;
+       box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    background: #0b111f;
+    border-bottom: none;
+    
+}
+#top-bar h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #c802a0;
+    display: inline-flex;
+    margin:20px 0 0 100px;
+    
+}
+.first-letter{
+    color:#f8b4ff;
+}
+.nav-container{
+    font-size:18px;
+    width: 50%;
+   padding: 30px;
+     float: right;
+
+   
+}
+ .nav-container li  {
+   display: inline;
+    list-style: none;
+     margin-right:15px;
+    
+
+}
+.nav-container li a{
+    text-decoration: none;
+      color: white;
+    
+   
+}
+.nav-container li a:hover:not(.active){
+    color:#c802a0;
+  
+}
+
+.active{
+   padding: 8px;
+   background-color:#c802a0; 
+    border-radius: 8px 0px;   
+}
+/*  end of navbar style */
+
+/*  start of intro style */
+#intro{
+  background-image: url("images/1.jpg") ;
+    height:630px;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative; 
+  
+           
+}
+.intro-content{
+   padding:170px ;
+}
+.intro-content h1{
+    color:#c802a0; 
+    font-size: 45px;
+    font-weight: bold;
+}
+.intro-content h2{
+    color: white;
+    font-weight: lighter;
+}
+.offers-btn{
+    font-size: 15px;
+    font-weight:bold;
+    color: #0b111f;
+    margin-top: 25px;
+     padding: 10px 30px;
+   background-color:#c802a0; 
+    border-radius: 8px 0px; 
+    border-style: none;
+}
+.offers-btn:hover{
+    background-color: transparent;
+    border: 1px solid #c802a0;
+    color: white;
+}
+
+/*  end of intro style */
+
+/*  start of about us style */
+#about_us{
+    background-color: #0b111f;
+  
+    margin-top: 0;
+    position: relative;
+    
+}
+.container{
+    width: 90%;
+  
+   margin-left: 90px;
+   
+    padding-top: 50px;
+}
+.about-header{
+    
+  text-align: center;  
+ color: white; 
+}
+.about-header h1{
+    font-size: 30px;
+}
+.bullets{
+    color:#c802a0;
+     font-size: 20px;
+  
+}
+.inside-container{
+    overflow: hidden;
+    width: 100%;
+     padding-top: 50px;
+    
+}
+.pic img{ 
+   
+   width: 600px;
+   float: left;
+
+}
+
+.pic-content{
+    color: white;
+    float: right;
+    width:45%;
+    word-wrap: normal;
+  
+}
+.pic-content q {
+    font-weight: lighter;
+}
+
+.pic-content img{
+    width: 25px;
+    height: 25px;
+    background-color:#c802a0; 
+    border-radius: 50%;
+    border-style: none;
+    margin-top:-5px;
+    margin-bottom: -5px;
+}
+
+/*  end of about us style */
+
+
+
+
+/*  start of services style */
+
+#services{
+background: #ce70bb;
+}
+.service-header{
+    color: #0b111f;
+  text-align: center;  
+
+}
+.service-header h1{
+    font-size: 30px;
+}
+.bullets{
+    color:#c802a0;
+     font-size: 20px;
+  
+}
+.parent{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+    
+}
+.parent div{
+
+    margin-bottom: 25px;
+    background-color: white;
+    
+}
+.parent h2{
+    text-align: center;
+    color: #0b111f; 
+}
+.parent div img{
+  
+    width:350px;
+    height: 280px;
+}
+.parent div:hover{
+    transform:scale3d(1.1,1.1,1.1);
+    transition:all 0.3s ease-out; 
+}
+/*  end of services style */
+
+
+/*  start of price style */
+#price{
+    background-color: #0b111f;
+    margin-top: 0;
+    position: relative;
+}
+.price-header{
+     text-align: center;  
+ color: white;
+}
+
+.price-header h1{
+    font-size: 30px;
+}
+.bullets{
+    color:#c802a0;
+     font-size: 20px;
+  
+}
+.prices{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+ 
+}
+.prices div{
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    width: 250px;
+    height: 110px;
+    margin-top: 30px;
+    padding: 15px;
+}
+.prices div:hover{
+     transform:scale3d(1.1,1.1,1.1);
+    transition:all 0.3s ease-out; 
+}
+.prices .hidden{
+    border: none;
+}
+.prices .price1{
+    border-color: gray;
+    
+}
+
+.prices .price2{
+    border-color:green;
+}
+.prices .price3{
+        border-color:blue;
+}
+.prices .price4{
+        border-color:lightskyblue;
+}
+.prices .price5{
+        border-color:orange;
+}
+.prices .price6{
+        border-color:red;
+}
+/*  end of price style */
+
+/*  start of portfolio style */
+
+#portfolio{
+   background-color: #0b111f;
+    margin-top: 0;
+    position: relative;   
+}
+.portfolios{
+     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 30px 30px 0px 30px;
+}
+.portfolios div{
+
+    margin-bottom: 25px;
+   
+    
+}
+.portfolios h2{
+    text-align: center;
+    color: white;
+     background-color:transparent;
+}
+.portfolios div img{
+  
+    width:300px;
+    height: 250px;
+}
+.portfolios div:hover{
+    transform:scale3d(1.1,1.1,1.1);
+    transition:all 0.3s ease-out; 
+}
+
+/*  end of portfolio style */
+
+
+
+/*  start of call style  */
+
+#call{
+    background-color:#c802a0;
+     color: white;
+    overflow: hidden;
+    
+}
+.call-content{
+    float: left;
+        width:70%;
+}
+
+.call-content h1{
+    font-weight: 600;
+}
+
+.contact-btn{
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    float: right;
+    margin: 45px;
+}
+.contact-btn:hover {
+    border-style: none;
+    transition:all 0.5s linear; 
+}
+
+/* end of call style  */
+
+/* start of our team style  */
+#our_team{
+  background-color:#0b111f;   
+  
+}
+.team-header{
+    color: white;
+    text-align: center;
+    font-size:25px;
+}
+.members-parent{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin: 30px 30px 0px 30px;   
+}
+.member-img img{
+    width:270px;
+    height: 230px;  
+}
+.member-info{
+    background-color:#687084a8;
+    color:#c802a0;
+    padding-left: 5px;
+    text-align: center;
+   
+}
+.member-info h4{
+    font-style: italic;
+}
+.icons img{
+   border: 1px solid #242B3D;
+    margin-left: 5px;
+    margin-top: 8px;
+} 
+.icons img:hover{
+  color:#c802a0; 
+} 
+
+/* end of our team style  */
+
+
+/* start of contact us style */
+
+#contact{
+    background-color:#0b111f;
+    height: 1000px;
+}
+.contact-header{
+    margin-top: 60px;
+   color: white;
+    text-align: center;
+    
+} 
+.contact-header h1{
+    font-size: 35px;
+}
+.form-info {
+    margin-top: 10px;
+}
+.form-info .info{
+    width: 30%;
+    float: left;
+}
+.form-info .info img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
+}
+.form-info .info h4{
+    color:#c802a0; 
+    display: inline;
+}
+.form-info .info p{
+    color: white;
+    margin:8px;
+}
+.form-info .data{
+   width:55%;
+    float: right;  
+}
+input , textarea{
+    display: block;
+    width:600px;
+    height: 50px;
+    background-color: transparent;
+    margin-top: 15px;
+    color:#687084a8;
+    font-size: 20px;
+    padding:8px;
+    border: 1px solid #687084a8;
+}
+textarea{
+    width: 600px;
+    height: 200px;
+}
+.data button{
+    margin-top: 8px;
+    background-color:#c802a0;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    float: left;
+   
+    
+}
+
+/* end of contact us style */
+
+
+
+
+
+
+
+
